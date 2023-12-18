@@ -1,6 +1,6 @@
 /* Set the background color of the body */
 body {
-  background-color: aliceblue;
+  background-color: rgb(213, 242, 201);
 }
 
 /* Position and center the container using absolute positioning and transform */
@@ -32,8 +32,8 @@ body {
   display: block;
   height: 64px;
   width: 64px;
-  background: #f23fcb;
-  border: 1px solid #f23fcb;
+  background: #d30d0d;
+  border: 1px solid #d30d0d;
   border-radius: 100%;
 }
 
@@ -92,8 +92,8 @@ body {
   height: 16px;
   width: 64px;
   border-radius: 50%;
-  background-color: #e4e3e3;
-  border: 1px solid #e4e3e3;
+  background-color: #000000;
+  border: 1px solid #000000;
   animation: shadow 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;
 }
 

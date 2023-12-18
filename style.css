@@ -13,16 +13,16 @@ body {
 
 /* Apply rotation animation to the preloader using keyframes */
 .container .preloader {
-  animation: rotate 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;
+  animation: translate 2.3s cubic-bezier(0.75, 0, 0.5, 1) infinite;
 }
 
-/* Define the keyframes for the rotation animation */
-@keyframes rotate {
+/* Define the keyframes for the shrinking animation */
+@keyframes translate {
   50% {
-    transform: rotate(360deg);
+    transform: translate;
   }
   100% {
-    transform: rotate(720deg);
+    transform: translate;
   }
 }
 
@@ -45,7 +45,7 @@ body {
 
 /* Define keyframes for the animation of the first heart shape */
 @keyframes shape_1 {
-  60% {
+  50% {
     transform: scale(0.4);
   }
 }
@@ -58,7 +58,7 @@ body {
 
 /* Define keyframes for the animation of the second heart shape */
 @keyframes shape_2 {
-  40% {
+  50% {
     transform: scale(0.4);
   }
 }

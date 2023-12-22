@@ -7,3 +7,5 @@ Not a coder, so this was VERY stressful :'(  learning Git, GitHub, VSCode, and t
 I guess that's what makes it a challenge.
 
 Really appreciate this Day 1; here we go, Day 2! :)
+
+This will be the main repo where all subsequent days are added in new files
